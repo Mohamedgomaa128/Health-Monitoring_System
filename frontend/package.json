@@ -1,0 +1,22 @@
+{
+  "name": "health-monitoring-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
+    "lucide-vue-next": "^0.511.0",
+    "pinia": "^2.3.1",
+    "vite": "^6.3.5",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {}
+}
